@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-link {
+    padding: 0;
+  }
+  header {
+    background-color: white;
+    /* color: #fff; */
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+  header .logo-image {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+  }
+  header .social-icons {
+    float: left;
+    margin: 1em 0;
+  }
+  header .social-icons img {
+    width: 55px;
+    padding: 1em 1em;
+  }
+  header .search-icon {
+    float: right;
+  }
+  header .search-icon img {
+    width: 55px;
+    padding: 2em 1em;
+  }
+  header .social-icons a {
+    display: inline-flex;
+  }
+  nav {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex !important;
+    color: slategray;
+    margin: 1em 2em;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: auto 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: slategrey;
+  }
+  .carousel {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .image-row {
+    margin: 2rem 0rem;
+  }
+
+  .logo-image img {
+    width: 15%;
+  }
+  .btn-login {
+    border-radius: 8px;
+    padding: 18px 50px 20px;
+    margin-right: 1em;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;    /* border-style: none; */
+  }
+  .btn-submit {
+    border-radius: 1000px;
+    padding: 18px 26px 20px;
+    background-color: #ff5757;
+    color: #fff;
+    border-style: none;
+    margin-right: auto;
+  }
+  .carousel-caption {
+    background-color: #fff;
+    color: black;
+  }
+  .carousel-caption h5 {
+    color: black;
+  }
+  .search-btn {
+    background-color: #ff5757;
+    color: #fff;
+  }
+  /* media query to cater for mobile devices */
+  @media (max-width: 992px) {
+    .btn-login {
+        border-radius: 8px;
+        padding: 10px 38px 10px;
+        margin-right: 1em;
+        border-style: none;
+      }
+      .btn-submit {
+        border-radius: 1000px;
+        padding: 10px 9px 10px;
+        background-color: #ff5757;
+        color: #fff;
+        border-style: none;
+        margin-right: auto;
+      }
+      .logo-image img {
+        width: 50%;
+    }
+    header .social-icons {
+        float: inherit;
+        margin: 0;
+      }
+  }

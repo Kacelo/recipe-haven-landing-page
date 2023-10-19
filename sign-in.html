@@ -14,36 +14,24 @@
   </head>
   <body>
     <div class="main-div">
-      <div class="background-image">
+      <div class="background-image-sign-in">
         <!-- Background image here -->
       </div>
       <div class="form-container">
         <div class="logo-image" id="sign-in-logo">
           <img src="./images/light.png" />
         </div>
-        <h2 class="heading">Create an account</h2>
+        <h2 class="heading">Welcome back</h2>
         <form action="signup.php" method="POST" enctype="multipart/form-data">
-          <input
-            type="text"
-            name="first_name"
-            placeholder="First Name"
-            required
-          />
-          <input
-            type="text"
-            name="last_name"
-            placeholder="Last Name"
-            required
-          />
           <input type="email" name="email" placeholder="Email" required />
-          <input type="text" name="username" placeholder="Username" required />
+          <!-- <input type="text" name="username" placeholder="Username" required /> -->
           <input
             type="password"
             name="password"
             placeholder="Password"
             required
           />
-          <div class="upload">
+          <!-- <div class="upload">
             <label for="profile-upload" class="form-label"
               >Choose a profile picture</label
             >
@@ -54,10 +42,14 @@
               required
               id="profile-upload"
             />
-          </div>
+          </div> -->
 
-          <button type="submit" class="form-btn">Sign Up</button>
+          <button type="submit" class="form-btn">Log in</button>
         </form>
+        <br>
+        <div>
+          <p>Don't have an account? <a href="sign-up.html">Sign up</a></p>
+        </div>
       </div>
     </div>
     <script

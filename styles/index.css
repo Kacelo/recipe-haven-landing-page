@@ -142,6 +142,12 @@ body {
     background-size: cover;
     background-position: right;
 }
+.background-image-sign-in {
+  flex: 1;
+  background-image: url('../images/signin.jpg'); /* Add your background image URL */
+  background-size: cover;
+  background-position: right;
+}
 
 .form-container {
     flex: 1;
@@ -165,7 +171,7 @@ input {
     border-radius: 5px;
 }
 
-button {
+.form-btn {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -175,7 +181,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.form-btn:hover {
     background-color: #0056b3;
 }
 #sign-in-logo{

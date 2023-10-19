@@ -122,3 +122,71 @@ body {
         margin: 0;
       }
   }
+
+  /* SIGN UP */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    display: flex;
+    height: 100vh;
+}
+
+.background-image {
+    flex: 1;
+    background-image: url('../images/signUp.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: right;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f0f0f0; */
+    padding: 0 10rem;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#sign-in-logo{
+  text-align: center;
+}
+#sign-in-logo img{
+  width: 300px;
+}
+.upload{
+  text-align: start;
+}
+.heading{
+  font-weight: 900;
+}
